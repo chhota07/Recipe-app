@@ -171,3 +171,26 @@ body::-webkit-scrollbar-thumb{
         margin-top: 20px;
     }
 }
+
+@media (max-width: 1024px) {
+    .recipe-details {
+        width: 60%;
+        height: 70%;
+        font-size: 18px;
+    }
+}
+@media (max-width: 768px) {
+    .recipe-details {
+        width: 80%;
+        height: 75%;
+        font-size: 16px;
+        padding: 15px;
+    }
+}@media (max-width: 576px) {
+    .recipe-details {
+        width: 90%;
+        height: 80%;
+        font-size: 14px;
+        padding: 10px;
+    }
+}
